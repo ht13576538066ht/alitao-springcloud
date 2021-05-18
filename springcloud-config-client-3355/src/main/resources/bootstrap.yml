@@ -1,0 +1,9 @@
+# 系统级别的配置
+spring:
+  cloud:
+    config:
+      # 这里我们从自己写的 config-server 服务端去获取配置
+      uri: http://localhost:3344
+      name: config-client # 需要从git上读取的资源名称，不需要后缀
+      profile: dev
+      label: master
