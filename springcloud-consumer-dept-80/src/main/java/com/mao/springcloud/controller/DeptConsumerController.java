@@ -18,7 +18,7 @@ import java.util.List;
  */
 @RestController
 public class DeptConsumerController {
-
+//测试git
     // 理解：消费者， 不应该有 service 层
     // RestTemplate ...... 模板有很多的方法供我们直接调用就可以了 注册到容器中
     // （url,Class<T> responseType, 实体：Map<String, ?> uriVariables)
